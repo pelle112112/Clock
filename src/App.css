@@ -1,0 +1,80 @@
+
+h1{
+
+  border-bottom: 2px solid #7d7d87aa ;
+
+  font-size: 100px;
+}
+
+#actionButton{
+  width: 100px;
+}
+
+
+
+.clock{
+  border: #7d7d87aa 2px solid;
+  font-size: 60px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+#input{
+  border-style: solid;
+  border-color: #7d7d87aa;
+  text-align: center;
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-right: 4px;
+  width: 100px;
+  padding-left: 12px;
+}
+
+#presets {
+  width: 100px;
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
