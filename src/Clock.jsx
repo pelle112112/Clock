@@ -106,6 +106,8 @@ function clock(){
           <div className="clock">{formatTime(time)}
           
           </div>
+          <button id="presets" onClick={setClockTo30}>30</button>
+          <button id="presets" onClick={setClockTo1}>1</button>
           <button id="presets" onClick={setClockTo5}>5</button>
           <button id="presets" onClick={setClockTo10}>10</button>
           <button id="presets" onClick={setClockTo15}>15</button>
