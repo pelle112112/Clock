@@ -43,6 +43,17 @@ function clock(){
         useGrouping: false,
       })}`;
     };
+    const setClockTo30 = () => {
+      setTimerOn(false);
+      setTime(30);
+      setTimeStart(30);
+    }
+    const setClockTo1 = () => {
+      setTimerOn(false);
+      setTime(60);
+      setTimeStart(60);
+    }
+
     const setClockTo5 = () => {
       setTimerOn(false);
       setTime(300);
